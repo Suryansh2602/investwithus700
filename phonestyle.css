@@ -1,0 +1,194 @@
+/* /css/phonestyle.css */
+
+/* Global Reset for smoother styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/* Header styling for phones */
+@media only screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;padding: 0;
+  }
+
+  .header .logo img {
+    width: 60px;
+    margin-bottom: 5px;
+  }
+
+  .header h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .navlogo img {
+    width: 45px;
+  }
+
+  /* Remove the GIF */
+  .header nav img[src*="animatedgif.gif"] {
+    display: none;
+  }
+}
+
+/* Hero section */
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 24px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.hero .buttons .primary {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* WhatsApp Section */
+.whatsapp-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.owner-photo img {
+          max-width: 100px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+/* Info section */
+.info-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-box {
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.satisfaction h2 {
+  font-size: 28px;
+  color: green;
+}
+
+/* Footer styling */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+footer .logo img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #25d366;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+ .owner-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .owner-details {
+    text-align: center;
+  }
+
+    .section section {
+        padding: 20px;
+        margin: 10px;
+    }
+
+   .section h1, h2 {
+        font-size: 1.4rem;
+    }
+
+    .section .tagline {
+        font-size: 1rem;
+    }
+
+    .whatsapp-float img{
+        width: 40px;
+        height: 40px;
+    }
+
+   
+    .info-grid {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .info-box {
+        flex: 1 1 100%;
+        font-size: 16px;
+        padding: 20px;
+        min-width: unset;
+    }
+
+  
+  .aminity-img {
+    flex: 0 0 calc(47% - 15px);
+  }
+
+  .aminity-img p {
+    font-size: 11px;
+  }
+
+
+  #typing-list{
+    display: flex;
+    flex-wrap: wrap;
+   overflow-y:  scroll;
+    align-items: center;
+  }
