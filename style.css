@@ -23,7 +23,8 @@ margin:0;
           padding: 10px 20px;
           border-bottom: whitesmoke solid 7px;
           max-height: 10pc;
-position: sticky;
+position: fixed;
+
       }
 
 
