@@ -26,21 +26,17 @@ body {
   }
 
   .header .logo img {
-    width: 60px;
+    width: 50px;
     margin-bottom: 5px;
   }
 
   .header h3 {
     font-size: 10px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 8px 0;
   }
 
-  .header nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
 
   .header .navlogo img {
     width: 45px;
