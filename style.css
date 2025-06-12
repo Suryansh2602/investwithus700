@@ -11,6 +11,7 @@
       .header {
 margin:0;
 margin-bottom:10px;
+display:inline-block;
           display: flex;
           justify-content: center;
           align-items: center;
