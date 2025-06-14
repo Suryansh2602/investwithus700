@@ -21,7 +21,7 @@ display:inline-block;
           width: 100%;
           top: 0;
           z-index: 1000;
-          padding: 10px 10px;
+          
           border-bottom: whitesmoke solid 7px;
           max-height: 8pc;
 position: fixed;
