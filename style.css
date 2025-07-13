@@ -4,63 +4,46 @@
       /* box-sizing: border-box; */
       font-family: 'Times New Roman', Times, serif;
 
-      body{
-        background-color: white;
+   
+    header {
+        background-image: linear-gradient(to right, #709496, #f0f4f8, #709496);
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+        
+    }
+
+    .nav ul li{
+        list-style: none;
+        display: inline-block;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
       }
+      
+      .nav ul .logo {
+        justify-content: center;
+        display: inline-block;
+      
+    }
 
-      .header {
-margin:0;
-margin-bottom:10px;
-display:inline-block;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-image: linear-gradient(to right, #709496, #f0f4f8, #709496);
-          opacity: 100%;
-          max-width: 100%;
-          width: 100%;
-          top: 0;
-          z-index: 1000;
-          
-          border-bottom: whitesmoke solid 7px;
-          max-height: 8pc;
-position: fixed;
+  .nav .ul{
+ justify-content: center;
+ display: flex;
+  }
 
-      }
+    #name {
+        position: relative;
+        /* justify-content: center; */
+         top: -20px;
+        margin: auto;
+        font-size: 20px;
+    }
 
 
-      .header h3 {
-          border-radius: 12px;
 
-          padding: 0;
-          margin: 0;
-          text-align: left;
-          word-spacing: 5px;
-          letter-spacing: 2px;
-          font-size: 20px;
-          font-weight: 450;
-          color: #072513;
 
-      }
-
-      .logo img {
-          width: 100px;
-          margin: 0;
-          padding: 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 48px;
-      }
-
-      .nav {
-          display: flex;
-          align-items: center;
-          gap: 20px;
-          color: black;
-      }
-
-    
       .hero {
           position: relative;
           width: 80%;
@@ -75,9 +58,6 @@ position: fixed;
           margin: auto;
           outline-offset: 2px;
           border-radius: 20px;
-
-
-
       }
 
       .hero-content .info {
@@ -723,10 +703,8 @@ position: fixed;
 
       footer .logo img {
           margin: auto;
-          padding: 0;
-          width: 40%;
-          height: auto;
-          margin-bottom: 20px;
+          width: 30%;
+        
       }
 
 
